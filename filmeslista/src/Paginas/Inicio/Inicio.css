@@ -1,0 +1,22 @@
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.filmes-container{
+    color: #ffffff;
+   
+}
+
+.filmes-cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.secao-titulo{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
