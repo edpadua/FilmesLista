@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Link, Outlet } from 'react-router-dom'
 import BarraDeNavegacao from './Componentes/BarraDeNavegacao'
+import Rodape from './Componentes/Rodape'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       
         <BarraDeNavegacao/>
         <Outlet/>
-
+        <Rodape/>
     </div>
   )
 }

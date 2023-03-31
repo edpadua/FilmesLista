@@ -8,13 +8,39 @@
     margin-right: 1.5%;
     padding-bottom: 50px;
     text-align: center;
-  }
+}
 
-  .filme-card h2{
-     padding-top:20px;
-     padding-bottom:20px;
-  }
+.filme-card h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-  .filme-card img{
+.filme-card img {
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
-  }
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s !important;
+    transition-duration: 300ms;
+    
+}
+
+.filme-card img:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 40px 58px -16px, rgba(0, 0, 0, 0.72) 0px 30px 22px -10px;
+    transform: scale(1.05);
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+}
+
+
+
+
+.imagem-sem-hover:hover{
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px!important;
+    transform: scale(1.00, 1.00)!important;
+    border: none !important;
+}
+
+.filme-card a {
+    color: #ffffff;
+    font-weight: 600;
+    display: contents;
+}

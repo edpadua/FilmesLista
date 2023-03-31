@@ -1,0 +1,12 @@
+.filme-detalhes{
+    display: flex;
+}
+
+.filme-info{
+    width: 76%;
+}
+
+.info-item{
+    display: block;
+    padding-bottom: 20px;
+}

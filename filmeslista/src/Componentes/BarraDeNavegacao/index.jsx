@@ -1,12 +1,28 @@
 import React from 'react'
 
-import { Link, Outlet } from 'react-router-dom'
+import { useState } from "react";
+
+import { Link, useNavigate } from 'react-router-dom'
 
 import { FaSearch } from 'react-icons/fa';
 
 import './BarraDeNavegacao.css'
 
 function BarraDeNavegacao() {
+
+    const [busca, setBusca] = useState("");
+    const navegar = useNavigate();
+  
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        if (!busca) return;
+    
+        navegar(`/busca?q=${busca}`, { replace: true });
+        setBusca("");
+        console.log("busca",busca);
+      };
+
     return (
         <>
             <header className='header-filmes'>
@@ -15,8 +31,9 @@ function BarraDeNavegacao() {
                         <h2>
                             <Link to="/">Lista de Filmes</Link>
                         </h2>
-                        <form>
-                            <input type="text" placeholder='Digite o nome do filme'></input>
+                        <form onSubmit={handleSubmit}> 
+                            <input type="text" placeholder='Digite o nome do filme'
+                            value={busca} onChange={(e) => setBusca(e.target.value)}></input>
                             <button className="botao" type='submit'>Buscar</button>
                         </form>
                     </div>
