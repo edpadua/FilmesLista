@@ -40,7 +40,7 @@ function Filme() {
                             <FilmeCard filme={filme} mostraLink={false} />
                             <div className="filme-info">
                                 <div className="info-item">
-                                    <p className="tagline">{filme.tagline}</p>
+                                    <p className="tagline">"{filme.tagline}"</p>
                                 </div>
                                 <div className="info-item">
                                     <p><strong>Duração:</strong> {filme.runtime} min</p>

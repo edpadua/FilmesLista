@@ -6,6 +6,8 @@ import { Link, useNavigate } from 'react-router-dom'
 
 import { FaSearch } from 'react-icons/fa';
 
+import { FaFilm } from 'react-icons/fa';
+
 import './BarraDeNavegacao.css'
 
 function BarraDeNavegacao() {
@@ -28,9 +30,9 @@ function BarraDeNavegacao() {
             <header className='header-filmes'>
                 <nav className="navbar">
                     <div className="navbar-container">
-                        <h2>
-                            <Link to="/">Lista de Filmes</Link>
-                        </h2>
+                        
+                            <Link to="/"><FaFilm style={{ fontSize: '30px'}}/></Link>
+                       
                         <form onSubmit={handleSubmit}> 
                             <input type="text" placeholder='Digite o nome do filme'
                             value={busca} onChange={(e) => setBusca(e.target.value)}></input>

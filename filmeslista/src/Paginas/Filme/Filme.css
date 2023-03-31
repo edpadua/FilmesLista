@@ -2,11 +2,37 @@
     display: flex;
 }
 
+
+@media (max-width: 767px) {
+    .filme-detalhes {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
 .filme-info{
     width: 76%;
 }
 
+
+@media (max-width: 767px) {
+    .filme-info {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
 .info-item{
     display: block;
     padding-bottom: 20px;
+}
+
+.tagline{
+    font-size: 20px;
+    font-weight: 600;
 }
