@@ -22,6 +22,19 @@ a {
     z-index: 1;
   }
 
+  @media (max-width: 500px) {
+    .navbar{
+      height: 86px;
+   }
+}
+
+@media (max-width: 500px) {
+  .navbar-container {
+    margin-top: 0px !important;
+  }
+
+}
+
   .header-filmes{
     -webkit-box-align: center;
     align-items: center;
