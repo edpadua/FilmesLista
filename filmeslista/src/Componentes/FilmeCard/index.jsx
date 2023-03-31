@@ -8,8 +8,9 @@ import { FaStar } from 'react-icons/fa';
 const imagesURL = import.meta.env.VITE_IMG;
 
 function FilmeCard({ filme, mostraLink = true }) {
+  if( imagesURL + filme.poster_path !="https://image.tmdb.org/t/p/w500/null")
   return (
-    
+   
     <div className="filme-card">
         {console.log("filme",filme)}
       

@@ -30,7 +30,7 @@ a {
 
 @media (max-width: 500px) {
   .navbar-container {
-    margin-top: 0px !important;
+    margin-top: 22px !important;
   }
 
 }

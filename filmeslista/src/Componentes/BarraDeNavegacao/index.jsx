@@ -34,7 +34,7 @@ function BarraDeNavegacao() {
                             <Link to="/"><FaFilm style={{ fontSize: '30px'}}/></Link>
                        
                         <form onSubmit={handleSubmit}> 
-                            <input type="text" placeholder='Digite o nome do filme'
+                            <input className="form-control" type="text" placeholder='Digite o nome do filme'
                             value={busca} onChange={(e) => setBusca(e.target.value)}></input>
                             <button className="botao" type='submit'>Buscar</button>
                         </form>
