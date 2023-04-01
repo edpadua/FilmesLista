@@ -1,5 +1,6 @@
 .filme-detalhes{
     display: flex;
+    padding-bottom: 100px;
 }
 
 
@@ -35,4 +36,12 @@
 .tagline{
     font-size: 20px;
     font-weight: 600;
+}
+
+.youtube-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }

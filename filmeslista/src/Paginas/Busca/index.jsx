@@ -3,6 +3,8 @@ import { useSearchParams } from "react-router-dom";
 
 import FilmeCard from "../../Componentes/FilmeCard";
 
+import axios from 'axios';
+
 const URL = import.meta.env.VITE_SEARCH;
 const personURL = import.meta.env.VITE_PEOPLESEARCH;
 const multiURL = import.meta.env.VITE_MULTSEARCH;
@@ -18,8 +20,9 @@ function Busca() {
     const query = params.get("q");
 
     const getBusca = async (url) => {
-        const res = await fetch(url);
-        const data = await res.json();
+        const res = await axios.get(url);
+        console.log("res",res);
+        const data = res.data;
         setFilmes(data.results);
       };
 

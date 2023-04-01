@@ -6,6 +6,8 @@ import FilmeCard from '../../Componentes/FilmeCard';
 
 import './Inicio.css'
 
+import axios from 'axios';
+
 const URL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
 
@@ -14,11 +16,13 @@ function Inicio() {
     const [topFilmes, setTopFilmes] = useState([]);
 
     const getTopFilmes = async (url) => {
-        const res = await fetch(url);
-        const data = await res.json();
+        const res = await axios.get(url);
+        const data = res.data;
         setTopFilmes(data.results);
         console.log("top filmes", data.results);
     };
+
+    
 
     useEffect(() => {
         const topRatedUrl = `${URL}top_rated?${apiKey}`;

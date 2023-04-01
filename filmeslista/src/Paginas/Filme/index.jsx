@@ -5,6 +5,10 @@ import React from 'react'
 
 import "./Filme.css";
 
+import axios from 'axios';
+
+import Youtube from 'react-youtube';
+
 import FilmeCard from '../../Componentes/FilmeCard';
 
 const URL = import.meta.env.VITE_API;
@@ -15,15 +19,16 @@ function Filme() {
     const { id } = useParams();
     const [filme, setFilme] = useState(null);
 
-    const getFilme = async (url) => {
-        const res = await fetch(url);
-        const data = await res.json();
 
-        setFilme(data);
+
+    const getFilme = async (url) => {
+        const res = await axios.get(url);
+        console.log("res", res);
+        setFilme(res.data);
     };
 
     useEffect(() => {
-        const url = `${URL}${id}?${apiKey}`;
+        const url = `${URL}${id}?${apiKey}&append_to_response=videos`;
         getFilme(url);
     }, []);
 
@@ -31,7 +36,8 @@ function Filme() {
     return (
         <div div className="container">
             <div className="filmes-container">
-                {console.log("filme", filme)}
+                {console.log("filme ojbect", filme)}
+             
                 {filme && (
 
                     <>
@@ -51,6 +57,25 @@ function Filme() {
                                 <div className="info-item">
                                     <p><strong>Sinopse:</strong> {filme.overview}</p>
                                 </div>
+
+                                {filme.videos.results[0] && 
+                                <Youtube
+                                    videoId={filme.videos.results[0].key}
+
+                                    opts={{
+                                        width: '100%',
+                                        playerVars: {
+                                            autoplay: 1,
+                                            controls: 0,
+                                            cc_load_policy: 0,
+                                            fs: 0,
+                                            iv_load_policy: 0,
+                                            modestbranding: 0,
+                                            rel: 0,
+                                            showinfo: 0,
+                                        },
+                                    }}
+                                />}
                             </div>
 
 
