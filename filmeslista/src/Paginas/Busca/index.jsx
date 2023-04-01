@@ -4,6 +4,8 @@ import { useSearchParams } from "react-router-dom";
 import FilmeCard from "../../Componentes/FilmeCard";
 
 const URL = import.meta.env.VITE_SEARCH;
+const personURL = import.meta.env.VITE_PEOPLESEARCH;
+const multiURL = import.meta.env.VITE_MULTSEARCH;
 const apiKey = import.meta.env.VITE_API_KEY;
 
 import React from 'react'
