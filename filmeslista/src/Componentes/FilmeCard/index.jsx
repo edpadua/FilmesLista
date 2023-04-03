@@ -12,7 +12,7 @@ function FilmeCard({ filme, mostraLink = true }) {
   return (
    
     <div className="filme-card">
-        {console.log("filme",filme)}
+      
       
       
       {mostraLink ? <a href={`/filme/${filme.id}`}><img src={imagesURL + filme.poster_path} alt={filme.title} /></a>:

@@ -18,13 +18,20 @@ function Filme() {
 
     const { id } = useParams();
     const [filme, setFilme] = useState(null);
-
-
+    const [trailer, setTrailer] = useState(null)
+      
 
     const getFilme = async (url) => {
         const res = await axios.get(url);
         console.log("res", res);
         setFilme(res.data);
+        console.log("filme videos",res.data.videos)
+        if (res.data && res.data.videos.results) {
+            const video = res.data.videos.results.find(vid => vid.name.includes("Trailer"))
+            setTrailer(video ? video : res.data.videos.results[0])
+            console.log("video",video)
+        }
+        
     };
 
     useEffect(() => {
@@ -36,7 +43,7 @@ function Filme() {
     return (
         <div div className="container">
             <div className="filmes-container">
-                {console.log("filme ojbect", filme)}
+                {/**console.log("filme ojbect", filme)**/}
              
                 {filme && (
 
@@ -57,10 +64,10 @@ function Filme() {
                                 <div className="info-item">
                                     <p><strong>Sinopse:</strong> {filme.overview}</p>
                                 </div>
-
-                                {filme.videos.results[0] && 
+                               
+                                {trailer && 
                                 <Youtube
-                                    videoId={filme.videos.results[0].key}
+                                    videoId={trailer.key}
 
                                     opts={{
                                         width: '100%',
