@@ -4,6 +4,27 @@
     <a href="https://filmes-lista.vercel.app/"><img src="/filmeslista/public/demonstracao.gif"></a>
 </h1>
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about">About</a>
+      <ul>
+        <li><a href="#Demo">Demo</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#setup">Setup</a>
+      
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+   
+  </ol>
+</details>
  
 ## About 
 
