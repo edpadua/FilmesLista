@@ -21,6 +21,19 @@ The purpose of this project is to put into practice some aspects of the React li
 - Through the search bar the user types the name of the movie, if it is found it shows the list of movies with this word in the title.
 - When the user clicks on the poster image of a movie on the list, a page opens with the main information about the production and the respective trailer, if any.
 
+### :desktop_computer: Desktop design
+
+![image](https://user-images.githubusercontent.com/4975360/229848516-0ec7b066-cca3-4715-9996-bd28c4579372.png)
+
+
+### :iphone: Tablets design
+
+![image](https://user-images.githubusercontent.com/4975360/229848788-7b57ba57-6b17-426f-9241-523afe021510.png)
+
+### :iphone: Mobile design
+
+
+
 ### [🌐 Demo](https://filmes-lista.vercel.app/)
 
 ### Technologies
