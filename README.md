@@ -9,7 +9,11 @@
 
 This project shows a list of movies with main information, poster, trailer, based on the keyword searched by the user. This list of movies is consumed from the TMDB REST API.
 
-The purpose of this project is to put into practice some aspects of the React library, such as the use of hooks, componentization, react-router,  in this case with the consumption of API RESP by the Axios tool.
+The purpose of this project is to put into practice some aspects of the React library, such as the use of hooks, componentization, react-router, in this case with the consumption of API RESP by the Axios tool.
+
+- The Homepage show a list of the top movies from IMDB website.
+- Through the search bar the user types the name of the movie, if it is found it shows the list of movies with this word in the title.
+- When the user clicks on the poster image of a movie on the list, a page opens with the main information about the production and the respective trailer, if any.
 
 ### [🌐 Demo](https://filmes-lista.vercel.app/)
 
