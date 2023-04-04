@@ -6,10 +6,10 @@
 
 # Summary
 
-- [About](#-About)
+- [About](About)
 - [Demo](#-demo)
-- [Technologies](#-technologies)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Technologies](technologies)
+- [Setup](setup)
  
 ## About 
 
