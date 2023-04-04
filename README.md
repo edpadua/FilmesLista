@@ -6,10 +6,10 @@
 
 # Summary
 
-- [About](About)
+- [About](#About)
 - [Demo](#-demo)
-- [Technologies](technologies)
-- [Setup](setup)
+- [Technologies](#technologies)
+- [Setup](#setup)
  
 ## About 
 
