@@ -45,7 +45,13 @@ The purpose of this project is to put into practice some aspects of the React li
 
 ## Setup
 
+```bash
+git clone https://github.com/edpadua/FilmesLista
 
+cd filmeslista
+npm i
+npm run dev
+```
 
 ## [🚀 TMDB Api](https://developers.themoviedb.org)
 
