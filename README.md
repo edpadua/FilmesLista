@@ -4,27 +4,7 @@
     <a href="https://filmes-lista.vercel.app/"><img src="/filmeslista/public/demonstracao.gif"></a>
 </h1>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about">About</a>
-      <ul>
-        <li><a href="#Demo">Demo</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#setup">Setup</a>
-      
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-   
-  </ol>
-</details>
+
  
 ## About 
 
@@ -38,6 +18,8 @@ The purpose of this project is to put into practice some aspects of the React li
 
 ### [🌐 Demo](https://filmes-lista.vercel.app/)
 
+### Setup
+
 
 
 ### [🚀 TMDB Api](https://developers.themoviedb.org)
@@ -50,4 +32,16 @@ VITE_SEARCH=https://api.themoviedb.org/3/search/movie
 VITE_PEOPLESEARCH=https://api.themoviedb.org/3/search/person
 VITE_MULTSEARCH=https://api.themoviedb.org/3/search/multi
 VITE_IMG=https://image.tmdb.org/t/p/w500/
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+
+## Contact
+
+Eduardo de Pádua - ed.padua@gmail.com
+
+Project Link: [https://github.com/edpadua/FilmesLista/](https://github.com/edpadua/FilmesLista)
 
