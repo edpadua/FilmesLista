@@ -18,11 +18,17 @@ The purpose of this project is to put into practice some aspects of the React li
 
 ### [🌐 Demo](https://filmes-lista.vercel.app/)
 
-### Setup
+### Tecnologies
+
+-[React]: (https://reactjs.org/)
+-[Vite]: (https://vitejs.dev/guide/)
+-[React-router] (https://reactrouter.com/)
+
+## Setup
 
 
 
-### [🚀 TMDB Api](https://developers.themoviedb.org)
+## [🚀 TMDB Api](https://developers.themoviedb.org)
 
 Get the key value api_key from the website.
 
