@@ -1,7 +1,7 @@
 # FilmesLista
 
 <h1>
-    <a src="https://filmes-lista.vercel.app/"><img src="/filmeslista/public/demonstracao.gif"></a>
+    <a href="https://filmes-lista.vercel.app/"><img src="/filmeslista/public/demonstracao.gif"></a>
 </h1>
 
  
