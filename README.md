@@ -4,7 +4,12 @@
     <a href="https://filmes-lista.vercel.app/"><img src="/filmeslista/public/demonstracao.gif"></a>
 </h1>
 
+# Summary
 
+- [About](#-about)
+- [Demo](#-demo)
+- [Tecnologies](#-tecnologies)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
  
 ## About 
 
@@ -47,7 +52,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Eduardo de Pádua - ed.padua@gmail.com
+Eduardo de Pádua: ed.padua@gmail.com
 
 Project Link: [https://github.com/edpadua/FilmesLista/](https://github.com/edpadua/FilmesLista)
 
