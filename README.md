@@ -6,9 +6,9 @@
 
 # Summary
 
-- [About](#-about)
+- [About](#-About)
 - [Demo](#-demo)
-- [Tecnologies](#-tecnologies)
+- [Technologies](#-technologies)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
  
 ## About 
@@ -23,7 +23,7 @@ The purpose of this project is to put into practice some aspects of the React li
 
 ### [🌐 Demo](https://filmes-lista.vercel.app/)
 
-### Tecnologies
+### Technologies
 
 -[React]: (https://reactjs.org/)
 -[Vite]: (https://vitejs.dev/guide/)
