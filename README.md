@@ -32,6 +32,7 @@ The purpose of this project is to put into practice some aspects of the React li
 
 ### :iphone: Mobile design
 
+![Screenshot_20230404-174837 (1)](https://user-images.githubusercontent.com/4975360/229919018-4d7101ac-0bed-4dba-bc93-50aa2e36dc05.png)
 
 
 ### [🌐 Demo](https://filmes-lista.vercel.app/)
