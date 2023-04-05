@@ -72,8 +72,8 @@ function Filme() {
                                     opts={{
                                         width: '100%',
                                         playerVars: {
-                                            autoplay: 1,
-                                            controls: 0,
+                                            autoplay: 0,
+                                            controls: 2,
                                             cc_load_policy: 0,
                                             fs: 0,
                                             iv_load_policy: 0,
