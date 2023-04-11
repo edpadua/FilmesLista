@@ -10,8 +10,7 @@
 - [Demo](#-demo)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [API](#🚀 TMDB Api)
-- [Licence](#licence)
+- [License](#license)
 - [Contact](#contact)
  
 ## About 
